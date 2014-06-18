@@ -19,7 +19,6 @@ This is a sample markup to make a image to be loaded lazily
 </code>
 
 A complete working example code
-<code>
 <pre>
 <!doctype html>
 <html>
@@ -41,4 +40,3 @@ A complete working example code
     </body>
 </html>
 </code>
-</pre>
