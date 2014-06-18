@@ -20,23 +20,23 @@ This is a sample markup to make a image to be loaded lazily
 
 A complete working example code
 <pre>
-<!doctype html>
-<html>
-    <head>
-        <title>Qazy</title>
-        <script> var qazy_image = "http://qnimate.com/blank.gif";  </script>
-        <script src="qazy.js"></script>
-    </head>
-    <body>
-        <img src="lazy-loading.jpg" data-qazy="true">
-        <br>
-        <img src="offline-web-apps.jpg" data-qazy="true">
-        <br>
-        <img src="random-color.jpg" data-qazy="true">
-        <br>
-        <img src="revel-scroll.jpg" data-qazy="true">
-        <br>
-        <img src="wordpress-fields-metaboxes.jpg" data-qazy="true">
-    </body>
-</html>
-</code>
+&lt;!doctype html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Qazy&lt;/title&gt;
+        &lt;script&gt; var qazy_image = &quot;http://qnimate.com/blank.gif&quot;;  &lt;/script&gt;
+        &lt;script src=&quot;qazy.js&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;img src=&quot;lazy-loading.jpg&quot; data-qazy=&quot;true&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;offline-web-apps.jpg&quot; data-qazy=&quot;true&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;random-color.jpg&quot; data-qazy=&quot;true&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;revel-scroll.jpg&quot; data-qazy=&quot;true&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;wordpress-fields-metaboxes.jpg&quot; data-qazy=&quot;true&quot;&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
