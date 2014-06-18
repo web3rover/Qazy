@@ -12,11 +12,11 @@ Load the script as soon as possible in the webpage so that it can start tracking
 <a href="http://labs.qnimate.com/qazy-lazy-loading/">Live Preview</a>
 
 This is a sample markup to make a image to be loaded lazily
-<code>
+<pre>
 <!-- data-qazy is set to true means to load it lazily. Set it to false if you don't want to load it lazily. -->
 <!-- A default placeholder is used. To change the placeholder, assign the variable "qazy_image" with the placeholder image url before the script is loaded. -->
 <img src="offline-web-apps.jpg" data-qazy="true">
-</code>
+</pre>
 
 A complete working example code
 <pre>
