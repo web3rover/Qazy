@@ -62,7 +62,7 @@ qazy.qazy_list_maker = function(){
 		var source_url = elements[count].src;
 		elements[count].setAttribute("data-qazy-src", source_url);
 		
-		elements[count].src = qazy.qazy_image; 
+		elements[count].src = elements[count].getAttribute("data-qazy-placeholder") || qazy.qazy_image; 
 	}
 };
             
